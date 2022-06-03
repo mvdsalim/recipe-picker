@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>PET PROJECT</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="javascript.js"></script>
+
+    </head>
+    <body>
+        
+        <h1>What should I eat today?</h1>
+        <p> Answer the following questions to figure out what you would like to eat!</p>
+
+        <div class = "time">
+            <h4>How much time do you have?</h4>
+            <form action="#" name= "foodform">
+               <fieldset>
+                <input type="radio" id= "15mins" name="time" value="15mins">
+                <label for="15mins">15 minutes</label>
+                <input type="radio" id= "30mins" name="time" value="30mins">
+                <label for="time">30 minutes</label>
+                <input type="radio" id= "1hour" name="time" value="1hour">
+                <label for="1hour">1 hour</label>
+                <input type="radio" id= "3hours" name="time" value="3hours">
+                <label for="3hours">3+ hours</label>
+               </fieldset>      
+        </div>
+    
+
+    <div class = "cravings">
+        <h4>What are you craving right now?</h4>
+        <form action="#" name= "foodform">
+           <fieldset>
+            <input type="radio" id= "sweet" name="flavor" value="sweet">
+            <label for="sweet">Sweet</label>
+            <input type="radio" id= "spicy" name="flavor" value="spicy">
+            <label for="spicy">Spicy</label>
+            <input type="radio" id= "sour" name="flavor" value="sour">
+            <label for="sour">Sour</label>
+            <input type="radio" id= "savory" name="flavor" value="savory">
+            <label for="savory">Savory</label>
+           </fieldset>      
+    </div>
+
+
+    <div class="preference">
+    <h4>What do you prefer?</h4>
+       <fieldset>
+        <input type="radio" id= "cold" name="temp" value= "cold">
+        <label for="cold">Cold</label>
+        <input type="radio" id="hot" name="temp" value="hot">
+        <label for="hot">Hot</label>
+        <input type="radio" id= "nopreference" name="temp" value= "nopreference">
+        <label for="nopreference">No preference</label>
+       </fieldset> 
+    </div>
+
+    <div class="submit">
+        <button type="submit" name="recipes">Load Recipes</button>
+    </div>
+</form>
+
+    <div id="links">
+    <h1>Recipes</h1>
+    <p> Here are some recipes we've picked out for you based on your answers!</p>
+        <iframe width="400" id="recipe" height="560"></iframe>
+        <iframe width="400" id="recipe2" height="560"></iframe>
+        <iframe width="400" id="recipe3" height="560"></iframe>
+    </div>
+        
+
+    </body>
+</html>

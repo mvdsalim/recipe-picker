@@ -1,0 +1,49 @@
+h1,h2,h3,h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{text-align: center;}
+
+h4{
+    margin-top: 2em;
+}
+
+
+p {
+    text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin: 10px ;
+}
+
+body{
+    background-color:  #c1ccca;
+}
+
+fieldset{
+    background-color:  white;
+}
+
+
+.time{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cravings{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.preference{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit{
+    margin-top: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+#links{
+    display: flex;
+    display: none;
+    text-align: center;
+}
